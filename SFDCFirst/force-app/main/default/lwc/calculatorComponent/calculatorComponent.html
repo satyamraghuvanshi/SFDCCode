@@ -1,0 +1,10 @@
+<template>
+    <div>
+        <c-input-component first-number={firstNumber} second-number={secondNumber}></c-input-component>
+        <lightning-button label="Add" onclick={handleAdd}></lightning-button>
+        <lightning-button label="Subtract" onclick={handleSubtract}></lightning-button>
+        <lightning-button label="Multiply" onclick={handleMultiply}></lightning-button>
+        <lightning-button label="Divide" onclick={handleDivide}></lightning-button>
+        <lightning-input type="number" label="Result" value={result} readonly></lightning-input>
+    </div>
+</template>
